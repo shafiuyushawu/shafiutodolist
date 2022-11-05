@@ -18,11 +18,10 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   min-height: 600px;
-  background: #161a2b;
+  background: #081966;
   text-align: center;
-  margin: 128px auto;
   border-radius: 10px;
-  margin: 10px 100px 0 100px
+  /* margin: 10px 100px 0 100px ; */
 }
 
 .todo__list-title {
@@ -133,4 +132,12 @@ body {
 
 .edit__icon {
     color: #fff;
+}
+
+@media only screen and (max-width: 667px){
+  .app__todo{
+    margin: none;
+  }
+  
+ 
 }
