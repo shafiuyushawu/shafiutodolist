@@ -8,8 +8,8 @@
 body {
   background: linear-gradient(
     90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
+    rgb(71, 66, 109) 0%,
+    rgb(95, 103, 173) 100%
   );
 }
 
@@ -22,7 +22,7 @@ body {
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
-  padding: 0 0 32px 0;
+  margin: 10px 100px 0 100px
 }
 
 .todo__list-title {
